@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(36, 177, 224, 0.705);
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+	font-family: "Segoe UI";
+	font-size: 100px
+}
+img {
+	text-align: center;
+}
+p {
+	color: black;
+	text-align: center;
+	font-size: 40px;
+
+}
+img{
+    display: block;
+		height: 500px;
+		width: 800px;
+    margin: 0 auto;
+
+}
+.WebLink{
+	font-size: 35px;
+	text-decoration: none;
+	display: inline-block
+	
+
+}
+.WebLink:hover, .WebLink:active{
+	color:chartreuse;
+}
+button{
+	transition: all 0.4s ease;
+  -webkit-transition: all .4s ease;
+	background-color: black;
+	border: white;
+	color: white;
+	font-size: 40px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+}
+button:hover, button:active{
+	transition: all 0.4s ease;
+  -webkit-transition: all .4s ease;
+	background-color: coral;
+}
+.center{
+	 margin: 0 auto;
+	 text-align: center;
+	display: block;
+  max-width: 300px;
+
+}
+h2{
+	font-size: 50px;
+	color: rgba(15, 65, 202, 0.795);
+	text-align: center
+}
+ul{
+ list-style: square;
+ font-size: 48px;
+}
